@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Work+Sans:wght@100&display=swap');
+
+$tablet: 1199px;
+$mobile: 739px;
+
+@import 'common/reset';
+@import 'common/layout';
+@import 'common/header';
+@import 'common/footer';
+
+@import 'main/visual';
+@import 'main/intro';
+@import 'main/info';
+@import 'main/review';
+
+@import 'sub/about';
+@import 'sub/news';
+@import 'sub/class';
+@import 'sub/portfolio';
+@import 'sub/contact';

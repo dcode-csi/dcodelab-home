@@ -1,0 +1,30 @@
+header {
+	width: 100%;
+	padding: 40px 5vw;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	h1 {
+		a {
+			font: 20px/1 'orbitron';
+			color: #fff;
+		}
+	}
+
+	nav {
+		display: flex;
+		gap: 10vw;
+		align-items: center;
+
+		ul {
+			display: flex;
+			gap: 20px;
+		}
+	}
+}
