@@ -23,7 +23,7 @@ body {
 
 header {
   width: 100%;
-  padding: 40px 5vw;
+  padding: 40px 10vw;
   display: flex;
   position: absolute;
   top: 0;
@@ -34,8 +34,9 @@ header {
   align-items: center;
 }
 header h1 a {
-  font: 20px/1 "orbitron";
+  font: 24px/1 "orbitron";
   color: #fff;
+  letter-spacing: 1px;
 }
 header nav {
   display: flex;
@@ -45,6 +46,56 @@ header nav {
 header nav ul {
   display: flex;
   gap: 20px;
+}
+header nav ul#gnb a {
+  font: 16px/1 "arial";
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+header nav ul#sns a {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+#visual {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#intro {
+  width: 100%;
+  min-height: 50vh;
+  padding: 100px 10vw;
+  position: relative;
+  background: #000;
+}
+#intro h1 {
+  font: bold 20px/1 "arial";
+  color: #fff;
+  opacity: 0.5;
+}
+
+#info {
+  width: 100%;
+  height: 100vh;
+  padding: 100px 10vw;
+  position: relative;
+  background: #171717;
+}
+#info h1 {
+  font: bold 20px/1 "arial";
+  color: #fff;
+  opacity: 0.5;
+}
+
+#banner {
+  width: 100%;
+  height: 40vh;
+  background: #000;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
